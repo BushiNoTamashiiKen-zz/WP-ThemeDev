@@ -9,7 +9,7 @@ Author: Thabo Mbuyisa
 Author URI: http://www.behance.net/MeatMan
 License: GNU General Public License
 License URI: license.txt
-Last Modified: 2015/02/05 (23:19);
+Last Modified: 2015/02/14 (13:19);
 */
 
 /*--- Globals ---*/
@@ -20,9 +20,7 @@ Last Modified: 2015/02/05 (23:19);
 body
 {
 	margin: 0;
-	min-width: 980px;
 	padding: 0;
-	/*background: #FFFFFF;*/
 	color: #1D1D1D;
 }
 
@@ -43,13 +41,13 @@ p, ul, a
 
 button:-moz-focus-inner
 {
-  border: 0;
+	border: 0;
 }
 
 select, option, input
 {
-  outline: 0;
-  border: 0;
+	outline: 0;
+	border: 0;
 }
 
 img
@@ -94,19 +92,19 @@ h3
 /*--- Fix for gutters ---*/
 *, *:after, *:before
 {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
 /*--- Clearfix ---*/
 .clearfix:after
 {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
+	visibility: hidden;
+  	display: block;
+  	content: "";
+  	clear: both;
+  	height: 0;
 }
 /*--- Globals end ---*/
 /*==================*/
@@ -184,6 +182,7 @@ h3
 #slider, #second, #third
 {
 	width: 100%;
+	backround-size: cover;
 	min-height: 1000px;
 }
 
@@ -392,7 +391,6 @@ h3
 {
   	margin-right: 10px;
 }
-
 /*--- Add padding to the right except last one ---*/
 [class*='col-']:last-of-type
 {
