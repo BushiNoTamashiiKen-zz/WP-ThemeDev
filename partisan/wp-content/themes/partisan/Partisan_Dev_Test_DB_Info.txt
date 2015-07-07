@@ -1,0 +1,13 @@
+/*==============================*/
+Partisan_Dev_Test_Blog DB_Details
+/*==============================*/
+
+Database:	netfeqf119_PartZ
+
+Host:	localhost
+
+Username:	netfeqf119_PartZ
+
+Password:	N3tw0rk@2014
+
+/*==============================*/

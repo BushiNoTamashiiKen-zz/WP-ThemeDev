@@ -9,7 +9,7 @@ Author: Thabo Mbuyisa
 Author URI: http://www.behance.net/MeatMan
 License: GNU General Public License
 License URI: license.txt
-Last Modified: 2015/02/05 (23:25);
+Last Modified: 2015/06/05 (19:45);
 */
 
 /*--- Globals ---*/
@@ -138,24 +138,30 @@ h3
 	width: 169px;
 	height: 30px;
 }
+.blogTitle
+{
+	position: relative;
+	top: 500px;
+}
 /*--- End ---*/
 
 /*--- positioning ---*/
 .float-left
 {
 	float: left;	
-	margin: 0 0 0 20px;
+	margin: 0 0px 0 0;
 }
 
 .float-right
 {
 	float: right;
-	margin: 0 0px 0 0;
+	margin: 0 20px 0 0;
 }
 
 .float-right h2
 {
 	text-align: center;
+	color: #FFFFFF;
 }
 
 .float-right hr
@@ -205,7 +211,7 @@ h3
 	margin: 0 auto;
 	padding: 0;
 }
-#about
+#posts
 {
 	position: relative;
 	min-height: 500px;
@@ -218,7 +224,7 @@ h3
 	position: relative;
 	min-height: 1000px;
 	margin: 0 auto;
-	width: 55%;
+	width: auto;
 	max-width: 1920px;
 }
 
@@ -251,23 +257,6 @@ h3
 	height: 0;
 	border-bottom: 300px solid #fff;
 	border-right: 1349px solid transparent;
-}
-
-.story
-{
-	position: relative;
-	margin: 0 auto;
-	min-width: 980px;
-	overflow: visible;
-	width: 100%;
-}
-
-.story .float-left, .story .float-right
-{
-	margin-top:35%;
-	position: relative;
-	width: 450px;	
-	color: #FFFFFF;
 }
 
 .aboutWrapper
@@ -345,6 +334,10 @@ h3
 /*--- End ---*/
 
 /*--- Blog Posts Styling ---*/
+.main
+{
+	overflow: auto;
+}
 .postWrap
 {
 	display: block;
@@ -352,12 +345,14 @@ h3
 	overflow: auto;
 }
 
-/*--- Select all columns prefixed with 'col-' ---*
+/*--- Select all columns prefixed with 'col-' ---*/
 [class*='col-']
 {
+	display: block;
 	float: left;
-}*/
+}
 
+/*--- Flexi Column Grid Structure ---*/
 .col-1-2
 {
 	width: 55.5%;
@@ -367,7 +362,6 @@ h3
 .col-1-4
 {
 	width: 22.2%;
-	float: left;
 }
 
 .col-1-6
@@ -393,7 +387,7 @@ h3
   	margin-right: 10px;
 }
 
-/*--- Add padding to the right except last one ---*/
+/*--- Add padding to the right except last one ---*
 [class*='col-']:last-of-type
 {
   	padding-right: 0px;
@@ -404,6 +398,14 @@ h3
 	margin-right: 0px;
 }
 
+/*--- Alternative Grid Structure ---*
+.leftCol
+{
+	display: inline;
+	position: relative;
+	width: ;
+}
+/*--- End ---*/
 .postRow
 {
 	display block;

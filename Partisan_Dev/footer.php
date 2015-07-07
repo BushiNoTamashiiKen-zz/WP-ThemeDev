@@ -18,7 +18,7 @@
 		<div class="col-1-6">
 			<div class="footerWidget">
 				<h3><em>INSTAGRAM</em></h3>
-				<div><img src="images/instagram.jpg" width="100%"><!-- Widget API embed --></div>
+				<div><img src="<?php bloginfo('template_url');?>/images/instagram.jpg" width="100%"><!-- Widget API embed --></div>
 			</div>
 		</div>
 	</article>
