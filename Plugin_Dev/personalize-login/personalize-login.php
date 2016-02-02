@@ -1,6 +1,6 @@
 <?php
-/*--- Login Mod PHP file *---/
-Last modified: 25/01/16 15:07
+/*--- WP Login Mod PHP file *---/
+Last modified: 02/02/16 18:44
 /*---
  /**
   * Plugin Name: Personalize login
@@ -20,7 +20,7 @@ class Personalize_Login_Plugin {
      * hooks in the constructor.
      */
     public function __construct() {
-     
+      //Empty constructor for now :)
     }
 
       // Call the function when plugin activation hook is switched on
@@ -56,7 +56,6 @@ class Personalize_Login_Plugin {
           }
       }
   }
-  //
 }
  
 // Initialize the plugin
