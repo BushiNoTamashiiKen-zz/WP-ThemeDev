@@ -37,6 +37,35 @@ Last modified: 25/01/16 15:07
  */
  plugin static function plugin_activauted() {
  // Info needed to create the plugin's pages
- 	$page_definitions = (array)
+ 	$page_definitions = array(
+ 		'member-login' => array(
+            'title' => __( 'Sign In', 'personalize-login' ),
+            'content' => '[custom-login-form]'
+        ),
+        'member-account' => array(
+            'title' => __( 'Your Account', 'personalize-login' ),
+            'content' => '[account-info]'
+        ),
+ 	);
 
- }
+// Loop through the page renders
+	foreach($page_definitions as $slug => $page){
+		// Check that the page doesn't exist already
+        $query = new WP_Query( 'pagename=' . $slug );
+        if ( ! $query->have_posts()){
+        // Add the page using the data from the array above
+        wp_insert_post(
+        	array(
+        		'post_content' => $page['content'],
+        		'post_title' => $page['title'],
+        		'post_name' => $slug,
+        		'post_status' => 'publish',
+        		'post_type' => 'page',
+        		'ping_status' => 'closed',
+        		'comment_status' => 'closed',
+        		)
+        	);
+    	}
+    }
+}
+//loop end
