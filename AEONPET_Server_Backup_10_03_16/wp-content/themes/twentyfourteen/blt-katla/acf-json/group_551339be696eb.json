@@ -1,0 +1,140 @@
+{
+    "key": "group_551339be696eb",
+    "title": "Header",
+    "fields": [
+        {
+            "key": "field_551339da1e4fa",
+            "label": "Logo",
+            "name": "logo",
+            "prefix": "",
+            "type": "image",
+            "instructions": "Upload your logo here. Remove the image to show the name of the website in text instead.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_55133a041e4fb",
+            "label": "Show Tagline",
+            "name": "show_tagline",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Shows the tagline under the site name if there is no logo",
+            "default_value": 1
+        },
+        {
+            "key": "field_55133c919a075",
+            "label": "Favicon",
+            "name": "favicon",
+            "prefix": "",
+            "type": "image",
+            "instructions": "Upload a favicon. Favicons are the icons that appear in the tabs of the browser and left of the address bar. (16x16 pixels)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_55133ccb9a076",
+            "label": "Enable Fixed Header",
+            "name": "enable_fixed_header",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Check this to enable the fixed header feature. (The header will stay fixed at the top of the window when you scroll down)",
+            "default_value": 1
+        },
+        {
+            "key": "field_55133cf19a077",
+            "label": "Show Search in Header",
+            "name": "show_search_in_header",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Enable this to show the search form in the header",
+            "default_value": 1
+        },
+        {
+            "key": "field_55133d0f9a078",
+            "label": "Show Header Buttons",
+            "name": "show_header_buttons",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Check this to show the \"Add Post\" and \"Login\/Register\" buttons in the header",
+            "default_value": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1433362482
+}

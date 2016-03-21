@@ -1,0 +1,91 @@
+{
+    "key": "group_55134334eff90",
+    "title": "Colors & Fonts",
+    "fields": [
+        {
+            "key": "field_55134352bbd55",
+            "label": "Theme Color",
+            "name": "theme_color",
+            "prefix": "",
+            "type": "color_picker",
+            "instructions": "This is the main color of the page, various buttons and other things use this color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#4cc2bf"
+        },
+        {
+            "key": "field_551d4c38bf4a3",
+            "label": "Font Help",
+            "name": "font_help",
+            "prefix": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Subsets:\r\nUsing many font styles (subsets) can slow down your webpage, so only select the font styles that you actually need on your webpage. \r\n\r\nRegular, 600 and 800 should be enough in most cases, you might also want to add italics if you need that.\r\n\r\n-------------\r\n\r\nVariants:\r\nIf you choose only the languages that you need, you'll help prevent slowness on your webpage.\r\n\r\nChoosing only latin is sufficient for English text, you can add latin-ext for special characters.",
+            "esc_html": 0
+        },
+        {
+            "key": "field_551d4b7a7296a",
+            "label": "Main Font",
+            "name": "main_font",
+            "prefix": "",
+            "type": "google_font_selector",
+            "instructions": "Default font for all text",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "include_web_safe_fonts": 1,
+            "enqueue_font": 1,
+            "default_font": "Open Sans"
+        },
+        {
+            "key": "field_551d4b3e72969",
+            "label": "Headings Font",
+            "name": "headings_font",
+            "prefix": "",
+            "type": "google_font_selector",
+            "instructions": "h1, h2, h3, h4 and h5 tags",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "include_web_safe_fonts": 1,
+            "enqueue_font": 1,
+            "default_font": "Lato"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 5,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1433362491
+}

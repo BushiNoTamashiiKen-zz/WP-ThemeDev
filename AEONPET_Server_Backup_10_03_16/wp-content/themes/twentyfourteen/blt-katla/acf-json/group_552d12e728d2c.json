@@ -1,0 +1,88 @@
+{
+    "key": "group_552d12e728d2c",
+    "title": "Post Format: Quote",
+    "fields": [
+        {
+            "key": "field_552d12ef774e1",
+            "label": "Quote Text",
+            "name": "quote_text",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "The Quote itself",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_552d1306774e2",
+            "label": "Quote Author",
+            "name": "quote_author",
+            "prefix": "",
+            "type": "text",
+            "instructions": "The name of the quote author",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_552d1329774e3",
+            "label": "Quote Author URL",
+            "name": "quote_author_url",
+            "prefix": "",
+            "type": "text",
+            "instructions": "A link to the authors website\/quote",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "http:\/\/",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "quote"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1433362469
+}

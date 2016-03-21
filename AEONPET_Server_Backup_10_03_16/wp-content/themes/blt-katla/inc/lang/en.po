@@ -1,0 +1,1034 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Katla version 1.0\n"
+"POT-Creation-Date: 2015-07-14 16:00-0000\n"
+"PO-Revision-Date: 2015-07-14 16:00-0000\n"
+"Last-Translator: Bluthemes.com <support@bluthemes.com>\n"
+"Language-Team: Bluthemes <support@bluthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ../../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/acf\n"
+"X-Poedit-SearchPathExcluded-1: inc/vendor\n"
+
+#: archive.php:32 search.php:29
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:33 search.php:30
+msgid "Next page"
+msgstr ""
+
+#: archive.php:34 inc/template-parts/page.php:19 index.php:34 search.php:31
+msgid "Page"
+msgstr ""
+
+#: comments.php:23
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:25
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:26
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:96
+msgid "Profile"
+msgstr ""
+
+#: header.php:100 header.php:113 header.php:118 header.php:201 header.php:222
+msgid "Add post"
+msgstr ""
+
+#: header.php:106 header.php:206
+msgid "Logout"
+msgstr ""
+
+#: header.php:119 header.php:223
+msgid "Login / Register"
+msgstr ""
+
+#: header.php:126 header.php:182 header.php:214 searchform.php:2
+msgid "Search..."
+msgstr ""
+
+#: header.php:150 inc/template-parts/content-grid-2.php:82
+#: inc/template-parts/content-grid-3.php:82 inc/template-parts/content.php:82
+#: single.php:80
+msgid "Like"
+msgstr ""
+
+#: header.php:152 inc/template-parts/content-grid-2.php:84
+#: inc/template-parts/content-grid-3.php:84 inc/template-parts/content.php:84
+#: single.php:82
+msgid "Dislike"
+msgstr ""
+
+#: inc/blt-assets.php:51
+msgid "Loading"
+msgstr ""
+
+#: inc/blt-assets.php:52
+msgid "No More Posts"
+msgstr ""
+
+#: inc/blt-assets.php:53
+msgid "No Email Provided"
+msgstr ""
+
+#: inc/blt-assets.php:54
+msgid "Thank you for subscribing"
+msgstr ""
+
+#: inc/blt-assets.php:121 inc/classes/tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/blt-assets.php:122 inc/classes/tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/blt-assets.php:123 inc/classes/tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/blt-assets.php:124
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/blt-assets.php:135 inc/classes/tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/blt-assets.php:136 inc/classes/tgm-plugin-activation.php:177
+#: inc/classes/tgm-plugin-activation.php:1952
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/blt-assets.php:137
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/blt-functions.php:524 inc/blt-functions.php:528
+#: inc/template-parts/content-grid-2.php:53
+#: inc/template-parts/content-grid-3.php:53 inc/template-parts/content.php:53
+msgid "Continue reading..."
+msgstr ""
+
+#: inc/blt-functions.php:605
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/blt-functions.php:608
+msgid "Older Comments"
+msgstr ""
+
+#: inc/blt-functions.php:612
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/blt-functions.php:663
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/blt-functions.php:665
+msgid "(Edit)"
+msgstr ""
+
+#: inc/blt-functions.php:688
+msgid "Reply"
+msgstr ""
+
+#: inc/blt-functions.php:695
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/blt-functions.php:733
+msgid "Email address is invalid"
+msgstr ""
+
+#: inc/blt-functions.php:736
+msgid "No mailing list selected"
+msgstr ""
+
+#: inc/blt-functions.php:739
+msgid "API key not defined"
+msgstr ""
+
+#: inc/blt-functions.php:742
+msgid "No email address provided"
+msgstr ""
+
+#: inc/blt-functions.php:1071
+msgid "Error"
+msgstr ""
+
+#: inc/blt-template-tags.php:43 inc/template-parts/post-share.php:14
+msgid "Share on Facebook"
+msgstr ""
+
+#: inc/blt-template-tags.php:43 single.php:91
+msgid "Share"
+msgstr ""
+
+#: inc/blt-template-tags.php:46 inc/template-parts/post-share.php:19
+msgid "Share on Twitter"
+msgstr ""
+
+#: inc/blt-template-tags.php:46 single.php:94
+msgid "Tweet"
+msgstr ""
+
+#: inc/blt-template-tags.php:108
+msgid "Posted on"
+msgstr ""
+
+#: inc/blt-template-tags.php:118
+msgid "Author"
+msgstr ""
+
+#: inc/blt-template-tags.php:130
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: inc/blt-template-tags.php:137
+msgid ", "
+msgstr ""
+
+#: inc/blt-template-tags.php:140 user-posts-template.php:77
+msgid "Tags"
+msgstr ""
+
+#: inc/blt-template-tags.php:152
+msgid "1 Comment"
+msgstr ""
+
+#: inc/blt-template-tags.php:152
+msgid "% Comments"
+msgstr ""
+
+#: inc/blt-template-tags.php:302
+msgid "Source:"
+msgstr ""
+
+#: inc/blt-template-tags.php:336
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/blt-template-tags.php:338
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/blt-template-tags.php:340
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/blt-template-tags.php:342
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/blt-template-tags.php:342
+msgid "Y"
+msgstr ""
+
+#: inc/blt-template-tags.php:344
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/blt-template-tags.php:344
+msgid "F Y"
+msgstr ""
+
+#: inc/blt-template-tags.php:346
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/blt-template-tags.php:346
+msgid "F j, Y"
+msgstr ""
+
+#: inc/blt-template-tags.php:349
+msgid "Asides"
+msgstr ""
+
+#: inc/blt-template-tags.php:351
+msgid "Galleries"
+msgstr ""
+
+#: inc/blt-template-tags.php:353 user-posts-template.php:148
+msgid "Images"
+msgstr ""
+
+#: inc/blt-template-tags.php:355
+msgid "Videos"
+msgstr ""
+
+#: inc/blt-template-tags.php:357
+msgid "Quotes"
+msgstr ""
+
+#: inc/blt-template-tags.php:359
+msgid "Links"
+msgstr ""
+
+#: inc/blt-template-tags.php:361
+msgid "Statuses"
+msgstr ""
+
+#: inc/blt-template-tags.php:363
+msgid "Audio"
+msgstr ""
+
+#: inc/blt-template-tags.php:365
+msgid "Chats"
+msgstr ""
+
+#: inc/blt-template-tags.php:368
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/blt-template-tags.php:372
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/blt-template-tags.php:374
+msgid "Archives"
+msgstr ""
+
+#: inc/classes/notifications.php:44
+#, php-format
+msgid ""
+"%s Theme Updates: %s To be able to update the theme via the WordPress admin "
+"panel you need to insert your %s ThemeForest purchase code %s into the "
+"Purchase code field in the theme options."
+msgstr ""
+
+#: inc/classes/notifications.php:94
+msgid "Hide Notice"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:536
+#: inc/classes/tgm-plugin-activation.php:2169
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1171
+msgid "Private Repository"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1174
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1179
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1182
+msgid "Required"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1182
+msgid "Recommended"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1185
+msgid "Not Installed"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1187
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1292
+#: inc/classes/tgm-plugin-activation.php:1405
+msgid "Install"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1316
+#: inc/classes/tgm-plugin-activation.php:1406
+msgid "Activate"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1368
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1384
+msgid "Plugin"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1385
+msgid "Source"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1386
+msgid "Type"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1387
+msgid "Status"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1935
+msgid "Install package not available."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1936
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1937
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1938
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1939
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1940
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:1951
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2065
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2066
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2066
+#: inc/classes/tgm-plugin-activation.php:2075
+msgid "Show Details"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2066
+#: inc/classes/tgm-plugin-activation.php:2075
+msgid "Hide Details"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2067
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2068
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2072
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2073
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2074
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2075
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2076
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/classes/tgm-plugin-activation.php:2077
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/shortcodes.php:117
+msgid "Advertisement"
+msgstr ""
+
+#: inc/template-parts/content-grid-2.php:25
+#: inc/template-parts/content-grid-3.php:25
+#: inc/template-parts/content-grid.php:12 inc/template-parts/content.php:25
+#: inc/template-parts/single.php:5
+msgid "Featured Post"
+msgstr ""
+
+#: inc/template-parts/content-list-sm.php:23
+msgid "Removed"
+msgstr ""
+
+#: inc/template-parts/content-none.php:5
+msgid "Post not found"
+msgstr ""
+
+#: inc/template-parts/content-none.php:6
+msgid "We could not find that post you were looking for."
+msgstr ""
+
+#: inc/template-parts/content-none.php:8
+msgid "Try searching"
+msgstr ""
+
+#: inc/template-parts/page.php:10 inc/template-parts/single.php:17
+#: user-settings-template.php:100
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: inc/template-parts/page.php:15 inc/template-parts/single.php:23
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-parts/post-related.php:80
+msgid "Related Posts"
+msgstr ""
+
+#: inc/template-parts/single.php:34
+msgid "Tags:"
+msgstr ""
+
+#: inc/template-parts/single.php:39
+msgid "More Info"
+msgstr ""
+
+#: inc/user-login.php:33
+msgid "Register New Account"
+msgstr ""
+
+#: inc/user-login.php:39 inc/user-login.php:79 user-settings-template.php:107
+msgid "Username"
+msgstr ""
+
+#: inc/user-login.php:43 user-settings-template.php:113
+msgid "Email"
+msgstr ""
+
+#: inc/user-login.php:56
+#, php-format
+msgid "I accept the <a target=\"_blank\" href=\"%s\">Terms & Conditions</a>"
+msgstr ""
+
+#: inc/user-login.php:63 inc/user-login.php:88 inc/user-login.php:108
+#: inc/user-login.php:116 user-posts-template.php:220
+msgid "Loading..."
+msgstr ""
+
+#: inc/user-login.php:63
+msgid "Sign up"
+msgstr ""
+
+#: inc/user-login.php:73 inc/user-login.php:88 inc/user-login.php:125
+msgid "Login"
+msgstr ""
+
+#: inc/user-login.php:83
+msgid "Password"
+msgstr ""
+
+#: inc/user-login.php:83
+msgid "Lost Password?"
+msgstr ""
+
+#: inc/user-login.php:98
+msgid "Reset Password"
+msgstr ""
+
+#: inc/user-login.php:103
+msgid "Username or E-mail"
+msgstr ""
+
+#: inc/user-login.php:108
+msgid "Get new password"
+msgstr ""
+
+#: inc/user-login.php:120
+msgid "Login access is disabled"
+msgstr ""
+
+#: inc/user-login.php:124
+msgid "Don't have an account?"
+msgstr ""
+
+#: inc/user-login.php:124
+msgid "Sign Up"
+msgstr ""
+
+#: inc/user-login.php:125
+msgid "Already have an account?"
+msgstr ""
+
+#: inc/user-login.php:155 inc/user-login.php:219 inc/user-login.php:269
+msgid "Session token has expired, please reload the page and try again"
+msgstr ""
+
+#: inc/user-login.php:160 inc/user-login.php:225 inc/user-login.php:274
+msgid "Please fill all form fields"
+msgstr ""
+
+#: inc/user-login.php:171
+msgid "Login successful, reloading page..."
+msgstr ""
+
+#: inc/user-login.php:209
+msgid "Captcha failed, please try again."
+msgstr ""
+
+#: inc/user-login.php:230
+msgid "Please accept the terms and conditions before registering"
+msgstr ""
+
+#: inc/user-login.php:251
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: inc/user-login.php:295
+msgid "Password Reset. Please check your email."
+msgstr ""
+
+#: inc/user-login.php:311
+msgid "Please enter a username or e-mail address."
+msgstr ""
+
+#: inc/user-login.php:315
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: inc/user-login.php:327
+msgid "Invalid username or e-mail."
+msgstr ""
+
+#: inc/user-login.php:339
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: inc/user-login.php:358
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: inc/user-login.php:360
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: inc/user-login.php:361
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: inc/user-login.php:362
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: inc/user-login.php:371
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: inc/user-login.php:376
+msgid ""
+"The e-mail could not be sent.<br />Possible reason: your host may have "
+"disabled the mail() function."
+msgstr ""
+
+#: inc/user-posts.php:29 user-posts-template.php:46
+msgid "You need to log in to add a post"
+msgstr ""
+
+#: inc/user-posts.php:34
+msgid "Title can not be empty"
+msgstr ""
+
+#: inc/user-posts.php:39
+msgid "Please insert some text content with your post"
+msgstr ""
+
+#: inc/user-posts.php:44
+msgid "Please select a category"
+msgstr ""
+
+#: inc/user-posts.php:51
+msgid "The URL you provided for the video is not a valid URL"
+msgstr ""
+
+#: inc/user-posts.php:58 user-posts-template.php:51
+msgid "You don't have sufficent access rights to submit a post"
+msgstr ""
+
+#: inc/user-posts.php:65 inc/user-posts.php:68
+msgid "The URL you provided is not a valid URL"
+msgstr ""
+
+#: inc/user-posts.php:105
+msgid "Please upload images with your post"
+msgstr ""
+
+#: inc/user-posts.php:199
+msgid "New Post Submitted & Pending Review: "
+msgstr ""
+
+#: inc/user-posts.php:200
+msgid "New Post by User"
+msgstr ""
+
+#: inc/widgets/blt-author.php:25
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/blt-author.php:31
+msgid "Background image"
+msgstr ""
+
+#: inc/widgets/blt-author.php:46
+msgid "Author image: <small>Recommended 1:1</small>"
+msgstr ""
+
+#: inc/widgets/blt-author.php:60
+msgid "Author Name:"
+msgstr ""
+
+#: inc/widgets/blt-author.php:64
+msgid "Bio:"
+msgstr ""
+
+#: inc/widgets/blt-instagram.php:5
+msgid ""
+"Displays recent instagram images in a widget. Recommended for the sidebar."
+msgstr ""
+
+#: inc/widgets/blt-instagram.php:160
+msgid "followers"
+msgstr ""
+
+#: inc/widgets/blt-instagram.php:165
+msgid "following"
+msgstr ""
+
+#: inc/widgets/blt-instagram.php:170
+msgid "photos"
+msgstr ""
+
+#: inc/widgets/blt-mailchimp.php:132 inc/widgets/blt-mailchimp.php:143
+msgid "Email address"
+msgstr ""
+
+#: inc/widgets/blt-mailchimp.php:134 inc/widgets/blt-mailchimp.php:146
+msgid "Subscribe!"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:30 user-posts-template.php:62
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:37
+msgid "Posts Per Load:"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:38
+msgid "How many posts to load"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:46
+msgid "Only Show Categories:"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:47
+msgid "Hold CTRL for multiple"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:69
+msgid "Only Show Tags"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:70
+msgid "Separated by comma"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:92
+msgid "Order By:"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:93
+msgid "How to order the posts"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:108
+msgid "Date:"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:109
+msgid "Get posts by creation date"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:126
+msgid "Layout:"
+msgstr ""
+
+#: inc/widgets/blt-posts.php:127
+msgid "The way the posts render on the page"
+msgstr ""
+
+#: search.php:6
+#, php-format
+msgid "Search Results for: <span>%s</span>"
+msgstr ""
+
+#: single.php:36
+msgid "Next"
+msgstr ""
+
+#: single.php:37
+msgid "Previous"
+msgstr ""
+
+#: user-posts-template.php:18
+msgid "Post has been Submitted!"
+msgstr ""
+
+#: user-posts-template.php:21
+msgid ""
+"Thank you for submitting a post!<br>After our staff has gone over your "
+"submission we will publish it on our site."
+msgstr ""
+
+#: user-posts-template.php:67
+msgid "Source URL (optional)"
+msgstr ""
+
+#: user-posts-template.php:72
+msgid "Source Name (optional)"
+msgstr ""
+
+#: user-posts-template.php:79
+msgid "Separate each tag by comma. (tag1, tag2, tag3)"
+msgstr ""
+
+#: user-posts-template.php:99
+msgid "Category"
+msgstr ""
+
+#: user-posts-template.php:116
+msgid "Description"
+msgstr ""
+
+#: user-posts-template.php:149
+msgid "Video"
+msgstr ""
+
+#: user-posts-template.php:161
+msgid "Image"
+msgstr ""
+
+#: user-posts-template.php:165
+msgid "Make Featured Image"
+msgstr ""
+
+#: user-posts-template.php:170
+msgid "Image Title (optional)"
+msgstr ""
+
+#: user-posts-template.php:174
+msgid "Image Source Name (optional)"
+msgstr ""
+
+#: user-posts-template.php:178
+msgid "Image Source URL (optional)"
+msgstr ""
+
+#: user-posts-template.php:183
+msgid "Select image"
+msgstr ""
+
+#: user-posts-template.php:184
+msgid "Change"
+msgstr ""
+
+#: user-posts-template.php:187
+msgid "Remove"
+msgstr ""
+
+#: user-posts-template.php:195
+msgid "Add another image"
+msgstr ""
+
+#: user-posts-template.php:205
+msgid "Video URL"
+msgstr ""
+
+#: user-posts-template.php:208
+msgid ""
+"Note: You must also provide at least one image from the image tab to use "
+"with the post. You can use a service like <a href=\"http://www.youtube-image."
+"com\" target=\"_blank\">youtube-image.com</a> to find an image for youtube "
+"videos."
+msgstr ""
+
+#: user-posts-template.php:220
+msgid "Submit Post"
+msgstr ""
+
+#: user-profile.php:17
+msgid "You need to log in to access this page"
+msgstr ""
+
+#: user-profile.php:40
+msgid "Posts: "
+msgstr ""
+
+#: user-profile.php:44
+msgid "Upvoted Posts: "
+msgstr ""
+
+#: user-profile.php:49
+msgid "Downvoted Posts: "
+msgstr ""
+
+#: user-profile.php:103
+msgid "You haven't submitted any posts"
+msgstr ""
+
+#: user-profile.php:149 user-profile.php:162
+msgid "All Posts"
+msgstr ""
+
+#: user-profile.php:150 user-profile.php:163
+msgid "Published Posts"
+msgstr ""
+
+#: user-profile.php:151 user-profile.php:164
+msgid "Pending Posts"
+msgstr ""
+
+#: user-profile.php:152 user-profile.php:165
+msgid "Removed Posts"
+msgstr ""
+
+#: user-profile.php:158
+msgid "Select Posts"
+msgstr ""
+
+#: user-profile.php:183
+msgid "No posts found"
+msgstr ""
+
+#: user-settings-template.php:25
+msgid "You need to be logged in to do that"
+msgstr ""
+
+#: user-settings-template.php:28
+msgid "The email address isn&#8217;t correct."
+msgstr ""
+
+#: user-settings-template.php:31
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: user-settings-template.php:73
+msgid "User settings saved successfully"
+msgstr ""
+
+#: user-settings-template.php:95
+msgid "You need to logged in to view this page"
+msgstr ""
+
+#: user-settings-template.php:109
+msgid "Username can not be changed"
+msgstr ""
+
+#: user-settings-template.php:118
+msgid "Display Name"
+msgstr ""
+
+#: user-settings-template.php:123
+msgid "Website URL"
+msgstr ""
+
+#: user-settings-template.php:128
+msgid "Bio"
+msgstr ""
+
+#: user-settings-template.php:133
+msgid "Save Settings"
+msgstr ""

@@ -1,0 +1,32 @@
+.upme-woo-reviews,.upme-woo-downloads{
+    list-style: none;
+}
+
+#upme-woo-account{
+    padding: 10px;
+}
+
+.upme-woo-account-navigation-item{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background: #eee;
+    border: 1px solid #cfcfcf;
+}
+
+.upme-woo-clear{
+    clear: both;
+}
+
+.upme-woo-account-navigation-item:hover{
+    cursor: pointer;
+}
+
+.upme-woo-active{
+    background: #ABABAB;
+}
+
+.upme-woo-account-navigation-content{
+    margin: 20px 0;
+    padding-left: 10px;
+}

@@ -1,0 +1,146 @@
+{
+    "key": "group_55133411b6df7",
+    "title": "General",
+    "fields": [
+        {
+            "key": "field_551336a462fea",
+            "label": "Background Color",
+            "name": "background_color",
+            "prefix": "",
+            "type": "color_picker",
+            "instructions": "Default color is: #F4F4F4",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#F4F4F4"
+        },
+        {
+            "key": "field_551337aae1890",
+            "label": "Background Image",
+            "name": "background_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "Upload your background image here. Recommended size is 1400x875 px or 1.6 to 1 ratio.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_551337dfe1891",
+            "label": "Background Pattern",
+            "name": "background_pattern",
+            "prefix": "",
+            "type": "image",
+            "instructions": "<strong>Pro tip:<\/strong> You can upload a semi-transparent pattern that will overlap the background color or background image. You can get transparent patterns here <a href=\"http:\/\/www.transparenttextures.com\/\">http:\/\/www.transparenttextures.com\/<\/a>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_55377cb6b32fa",
+            "label": "Right to Left",
+            "name": "rtl",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Check this to enable Right-To-Left styling",
+            "default_value": 0
+        },
+        {
+            "key": "field_55377e2c50e7e",
+            "label": "SEO Features",
+            "name": "seo_features",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Uncheck this to disable SEO features in the theme, highly recommended if you use any other SEO plugin, that way the theme's SEO features won't conflict with the plugin.",
+            "default_value": 1
+        },
+        {
+            "key": "field_553fb477422da",
+            "label": "Container Width",
+            "name": "container_width",
+            "prefix": "",
+            "type": "number",
+            "instructions": "Default value is 1050 pixels",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1050,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": 10,
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": "",
+    "modified": 1433362458
+}

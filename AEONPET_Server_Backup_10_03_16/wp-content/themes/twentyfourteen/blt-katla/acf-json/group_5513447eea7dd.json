@@ -1,0 +1,170 @@
+{
+    "key": "group_5513447eea7dd",
+    "title": "User Submitted Posts",
+    "fields": [
+        {
+            "key": "field_551344ec3469e",
+            "label": "Category",
+            "name": "user_posts_categories",
+            "type": "taxonomy",
+            "instructions": "Select which categories may be assigned to submitted posts.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "category",
+            "field_type": "multi_select",
+            "allow_null": 0,
+            "load_save_terms": 0,
+            "return_format": "id",
+            "multiple": 0,
+            "add_term": 1,
+            "load_terms": 0,
+            "save_terms": 0
+        },
+        {
+            "key": "field_551d491fb6a62",
+            "label": "Submittion Page",
+            "name": "user_posts_page_id",
+            "type": "page_link",
+            "instructions": "To allow users to post content to your site you need to create a page that uses the \"user-posts-template\" page template.\r\nOnce created select that page here in the list and the \"Add Post\" button in the header will link to that page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": [
+
+            ],
+            "allow_null": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_551ea61832138",
+            "label": "Redirect Page",
+            "name": "user_posts_redirect_page",
+            "type": "page_link",
+            "instructions": "Here you can select a page where the user will be redirected to after submitting a post via the submission form.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": [
+
+            ],
+            "allow_null": 1,
+            "multiple": 0
+        },
+        {
+            "key": "field_554a48bd85b17",
+            "label": "Send Administrators Email",
+            "name": "send_new_post_email",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Send administrators email when a new post is submitted",
+            "default_value": 1
+        },
+        {
+            "key": "field_555351f75550c",
+            "label": "User Roles",
+            "name": "user_posts_access",
+            "type": "role_selector",
+            "instructions": "Select the required role the user has to have to access the post submission form. ",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_value": "name",
+            "allowed_roles": "",
+            "field_type": "checkbox"
+        },
+        {
+            "key": "field_555de64377d72",
+            "label": "Images required",
+            "name": "user_posts_images_required",
+            "type": "true_false",
+            "instructions": "Check this to require user to upload an image with their post submission",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Required",
+            "default_value": 0
+        },
+        {
+            "key": "field_55d4ac34627c9",
+            "label": "Default Post Status",
+            "name": "user_posts_default_post_status",
+            "type": "select",
+            "instructions": "This controls the default post status for user submitted posts.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "pending": "Pending (Awaiting a user with editorial capability to publish)",
+                "publish": "Published (Viewable by everyone)",
+                "draft": "Draft (Incomplete post viewable by anyone with proper user level)",
+                "private": "Private (Viewable only to users at Administrator level)"
+            },
+            "default_value": {
+                "pending": "pending"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 8,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1440002013
+}

@@ -1,0 +1,663 @@
+{
+    "key": "group_5513438c8f2b7",
+    "title": "Advertising",
+    "fields": [
+        {
+            "key": "field_551343ae43b90",
+            "label": "Google Publisher ID",
+            "name": "google_publisher_id",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Found in the top right corner of your <a href=\"https:\/\/www.google.com\/adsense\/\">adsense account<\/a>.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_551343cb43b91",
+            "label": "Google Ad unit ID",
+            "name": "google_ad_unit_id",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Found in your Ad Units area under <strong>ID<\/strong> <a href=\"https:\/\/www.google.com\/adsense\/app#myads-springboard\">here<\/a>.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_55379deb0a02f",
+            "label": "Ad spot #1 - Above the menu",
+            "name": "spot_above_menu",
+            "prefix": "",
+            "type": "radio",
+            "instructions": "This ad spot renders above the menu, the very top of the page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "adsense": "Google Adsense",
+                "html": "HTML\/Shortcode",
+                "image": "Image w\/link"
+            },
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "none",
+            "layout": "vertical"
+        },
+        {
+            "key": "field_5537a1030a034",
+            "label": "Ad spot #1 - HTML\/Shortcode",
+            "name": "spot_above_menu_html",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "Insert a shortcode provided by this theme or any plugin. You can also add advertising code from any provider or use plain html.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379deb0a02f",
+                        "operator": "==",
+                        "value": "html"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5537a88c0a039",
+            "label": "Ad spot #1 - Image",
+            "name": "spot_above_menu_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379deb0a02f",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5537a8e70a03a",
+            "label": "Ad spot #1 - Image URL",
+            "name": "spot_above_menu_image_url",
+            "prefix": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379deb0a02f",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_55379e7d0a030",
+            "label": "Ad spot #2 - Below the menu",
+            "name": "spot_below_menu",
+            "prefix": "",
+            "type": "radio",
+            "instructions": "This ad spot renders below the menu, above the content and sidebar.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "adsense": "Google Adsense",
+                "html": "HTML\/Shortcode",
+                "image": "Image w\/link"
+            },
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "none",
+            "layout": "vertical"
+        },
+        {
+            "key": "field_5537a1610a035",
+            "label": "Ad spot #2 - HTML\/Shortcode",
+            "name": "spot_below_menu_html",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379e7d0a030",
+                        "operator": "==",
+                        "value": "html"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5537b1b70a03b",
+            "label": "Ad spot #2 - Image",
+            "name": "spot_below_menu_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379e7d0a030",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5537b1e30a03c",
+            "label": "Ad spot #2 - Image URL",
+            "name": "spot_below_menu_image_url",
+            "prefix": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379e7d0a030",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_55379eaf0a031",
+            "label": "Ad spot #3 - Above the Content",
+            "name": "spot_above_content",
+            "prefix": "",
+            "type": "radio",
+            "instructions": "This ad spot renders above the main content column.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "adsense": "Google Adsense",
+                "html": "HTML\/Shortcode",
+                "image": "Image w\/link"
+            },
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "none",
+            "layout": "vertical"
+        },
+        {
+            "key": "field_5537a8270a036",
+            "label": "Ad spot #3 - HTML\/Shortcode",
+            "name": "spot_above_content_html",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379eaf0a031",
+                        "operator": "==",
+                        "value": "html"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5537b1fd0a03d",
+            "label": "Ad spot #3 - Image",
+            "name": "spot_above_content_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379eaf0a031",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5537b2190a03e",
+            "label": "Ad spot #3 - Image URL",
+            "name": "spot_above_content_image_url",
+            "prefix": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379eaf0a031",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_55379ee80a032",
+            "label": "Ad spot #4 - Between posts",
+            "name": "spot_between_posts",
+            "prefix": "",
+            "type": "radio",
+            "instructions": "This ad spot renders between posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "adsense": "Google Adsense",
+                "html": "HTML\/Shortcode",
+                "image": "Image w\/link"
+            },
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "none",
+            "layout": "vertical"
+        },
+        {
+            "key": "field_5537a84a0a037",
+            "label": "Ad spot #4 - HTML\/Shortcode",
+            "name": "spot_between_posts_html",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379ee80a032",
+                        "operator": "==",
+                        "value": "html"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5537b2280a03f",
+            "label": "Ad spot #4 - Image",
+            "name": "spot_between_posts_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379ee80a032",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5537b2430a040",
+            "label": "Ad spot #4 - Image URL",
+            "name": "spot_between_posts_image_url",
+            "prefix": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379ee80a032",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5537d57c951c7",
+            "label": "Ad spot #4 - Ad Frequency",
+            "name": "spot_between_posts_frequency",
+            "prefix": "",
+            "type": "number",
+            "instructions": "How often do you want the ad to appear? Be advised, Google Adsense has a limit on how many ads can be placed per page so try and increase this number if ads don't load on the page.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379ee80a032",
+                        "operator": "!=",
+                        "value": "none"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 3,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 1,
+            "max": "",
+            "step": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_55379feb0a033",
+            "label": "Ad spot #5 - Below content in single posts",
+            "name": "spot_below_content",
+            "prefix": "",
+            "type": "radio",
+            "instructions": "This ad spot renders below the content when viewing a post.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "adsense": "Google Adsense",
+                "html": "HTML\/Shortcode",
+                "image": "Image w\/link"
+            },
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "none",
+            "layout": "vertical"
+        },
+        {
+            "key": "field_5537a8670a038",
+            "label": "Ad spot #5 - HTML\/Shortcode",
+            "name": "spot_below_content_html",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379feb0a033",
+                        "operator": "==",
+                        "value": "html"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5537b2690a041",
+            "label": "Ad spot #5 - Image",
+            "name": "spot_below_content_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379feb0a033",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5537b2860a042",
+            "label": "Ad spot #5 - Image URL",
+            "name": "spot_below_content_image_url",
+            "prefix": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55379feb0a033",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 6,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1433362493
+}

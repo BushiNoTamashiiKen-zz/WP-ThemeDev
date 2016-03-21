@@ -1,0 +1,426 @@
+{
+    "key": "group_5548ebe6653c6",
+    "title": "Blog\/Front Page\/Archives",
+    "fields": [
+        {
+            "key": "field_5513385de1893",
+            "label": "Default Sidebar Layout",
+            "name": "sidebar_layout",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Select the layout you want, left sidebar, right sidebar or no sidebar. Default: sidebar Right",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "right": "Sidebar Right",
+                "left": "Sidebar Left",
+                "none": "Sidebar Off"
+            },
+            "default_value": {
+                "right": "right"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_556f0c6992355",
+            "label": "Category Sidebar Layout",
+            "name": "category_sidebar_layout",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Select the layout you want, left sidebar, right sidebar or no sidebar. Default: sidebar Right",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "right": "Sidebar Right",
+                "left": "Sidebar Left",
+                "none": "Sidebar Off"
+            },
+            "default_value": {
+                "right": "right"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_556f0c7f92356",
+            "label": "Author Sidebar Layout",
+            "name": "author_sidebar_layout",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Select the layout you want, left sidebar, right sidebar or no sidebar. Default: sidebar Right",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "right": "Sidebar Right",
+                "left": "Sidebar Left",
+                "none": "Sidebar Off"
+            },
+            "default_value": {
+                "right": "right"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_556f0c9092357",
+            "label": "Archive Sidebar Layout",
+            "name": "archive_sidebar_layout",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Select the layout you want, left sidebar, right sidebar or no sidebar. Default: sidebar Right",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "right": "Sidebar Right",
+                "left": "Sidebar Left",
+                "none": "Sidebar Off"
+            },
+            "default_value": {
+                "right": "right"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_5540b23c0b0f6",
+            "label": "Homepage Post Layout",
+            "name": "home_post_layout",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Use this to select how the posts on the blog page are rendered.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "normal": "Normal",
+                "list-sm": "List (Small)",
+                "grid-2": "Grid (Two per row)",
+                "grid-3": "Grid (Three per row)"
+            },
+            "default_value": {
+                "normal": "normal"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_556f0156c7362",
+            "label": "Category Post Layout",
+            "name": "category_post_layout",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Use this to select how the posts on the category page are rendered.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "normal": "Normal",
+                "list-sm": "List (Small)",
+                "grid-2": "Grid (Two per row)",
+                "grid-3": "Grid (Three per row)"
+            },
+            "default_value": {
+                "normal": "normal"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_556f017ac7363",
+            "label": "Author Post Layout",
+            "name": "author_post_layout",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Use this to select how the posts on the author page are rendered.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "normal": "Normal",
+                "list-sm": "List (Small)",
+                "grid-2": "Grid (Two per row)",
+                "grid-3": "Grid (Three per row)"
+            },
+            "default_value": {
+                "normal": "normal"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_556f0197c7364",
+            "label": "Archive Post Layout",
+            "name": "archive_post_layout",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Use this to select how the posts on the archive pages (days, months, tags) are rendered.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "normal": "Normal",
+                "list-sm": "List (Small)",
+                "grid-2": "Grid (Two per row)",
+                "grid-3": "Grid (Three per row)"
+            },
+            "default_value": {
+                "normal": "normal"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_55362cac18768",
+            "label": "Image location on blog page",
+            "name": "image_location_on_blog_page",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Select where you want the image to be located on the blog page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "above": "Above Title",
+                "below": "Below Title and Meta"
+            },
+            "default_value": {
+                "above": "above"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_551ecb597e913",
+            "label": "Show Content or Excerpt",
+            "name": "show_content_or_excerpt",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Choose here what you want to show on the blog page under each post.<br><br>\r\n\r\n<strong>Pro tip:<\/strong> When using the content you can place a &lt;!-- more --&gt; tag in your posts to specify the breaking point. <a href=\"https:\/\/en.support.wordpress.com\/splitting-content\/more-tag\/\" target=\"_blank\">More info<\/a>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "excerpt": "Excerpt (Short summary)",
+                "content": "Content",
+                "title": "Just the title"
+            },
+            "default_value": {
+                "excerpt": "excerpt"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_5537b4fd87509",
+            "label": "Enable Infinite Scrolling",
+            "name": "enable_infinite_scrolling",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "Click this to enable infinite scrolling on the front page (this is also configured specially inside page templates)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Enable Infinite Scrolling",
+            "default_value": 1
+        },
+        {
+            "key": "field_5523d88b07f75",
+            "label": "Show continue reading",
+            "name": "continue_reading",
+            "prefix": "",
+            "type": "select",
+            "instructions": "On the blog page a continue reading link will be displayed if there's more text content to show. Choose here how you would like that link to appear.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "false": "No - Don't show continue reading link",
+                "link": "Yes - Show continue reading as a regular link",
+                "button": "Yes - Show continue reading as a button"
+            },
+            "default_value": {
+                "false": "false"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_5523d817ab3b1",
+            "label": "Excerpt Length",
+            "name": "excerpt_length",
+            "prefix": "",
+            "type": "number",
+            "instructions": "Select how many words to show in the excerpt. Default: 55",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 55,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_553fbc4094c37",
+            "label": "Meta data on blog page",
+            "name": "content_meta_data",
+            "prefix": "",
+            "type": "checkbox",
+            "instructions": "Use this to control what meta data is shown on the blog page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "date": "Date",
+                "category": "Category",
+                "author": "Author",
+                "tags": "Tags",
+                "comments": "Comment count",
+                "views": "Post view count"
+            },
+            "default_value": {
+                "date": "date",
+                "category": "category",
+                "author": "author",
+                "comments": "comments"
+            },
+            "layout": "vertical"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 4,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1433362486
+}

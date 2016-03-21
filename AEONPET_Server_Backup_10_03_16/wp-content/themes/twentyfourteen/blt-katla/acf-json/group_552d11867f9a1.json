@@ -1,0 +1,76 @@
+{
+    "key": "group_552d11867f9a1",
+    "title": "Post\/Page Options",
+    "fields": [
+        {
+            "key": "field_552d11945464e",
+            "label": "Sidebar",
+            "name": "blt_sidebar",
+            "prefix": "",
+            "type": "select",
+            "instructions": "The sidebar layout of this particular post\/page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "right": "Sidebar Right",
+                "left": "Sidebar Left",
+                "none": "Sidebar Off"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_5548e49729774",
+            "label": "Hide Featured Image",
+            "name": "hide_featured_image",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "Check this to hide the featured image from the single view",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Hide Featured Image",
+            "default_value": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1433362473
+}

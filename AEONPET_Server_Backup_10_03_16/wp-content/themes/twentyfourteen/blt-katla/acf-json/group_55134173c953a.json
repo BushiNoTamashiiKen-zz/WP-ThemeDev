@@ -1,0 +1,299 @@
+{
+    "key": "group_55134173c953a",
+    "title": "Posts & Pages",
+    "fields": [
+        {
+            "key": "field_551ab3a90a60d",
+            "label": "Default Post Sidebar Layout",
+            "name": "default_post_sidebar_layout",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Select the default layout you want when viewing a single post, left sidebar, right sidebar or no sidebar. Default: No sidebar",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "right": "Sidebar Right",
+                "left": "Sidebar Left",
+                "none": "Sidebar Off"
+            },
+            "default_value": {
+                "none": "none"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_551341bb2a979",
+            "label": "Show Related Posts",
+            "name": "show_related_posts",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "Related articles are show below each post when you view it. Check this to enable that feature.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Yes, show related posts",
+            "default_value": 0
+        },
+        {
+            "key": "field_5513421103b7a",
+            "label": "Related Posts by...",
+            "name": "related_posts_by",
+            "prefix": "",
+            "type": "radio",
+            "instructions": "If \"Category\" is selected the theme will search for related posts by category and if none are found tags will be used to find related posts. If you choose Tags it will work exactly the opposite way.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_551341bb2a979",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "category": "Category",
+                "tag": "Tag"
+            },
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "category",
+            "layout": "vertical"
+        },
+        {
+            "key": "field_5513426c03b7b",
+            "label": "Related Posts Count",
+            "name": "related_posts_count",
+            "prefix": "",
+            "type": "number",
+            "instructions": "If \"Category\" is selected the theme will search for related posts by category and if none are found tags will be used to find related posts. If you choose Tags it will work exactly the opposite way.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_551341bb2a979",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 3,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_551342b503b7c",
+            "label": "Related Posts Columns",
+            "name": "related_posts_columns",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Choose how many columns the related posts should render in. ",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_551341bb2a979",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "1 Column",
+                "2": "2 Columns",
+                "3": "3 Columns",
+                "4": "4 Columns"
+            },
+            "default_value": [
+                3
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_553fbb8c94c36",
+            "label": "Meta data in single view",
+            "name": "single_meta_data",
+            "prefix": "",
+            "type": "checkbox",
+            "instructions": "Use this to control what meta data is shown in the single page when viewing a post.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "date": "Date",
+                "category": "Category",
+                "author": "Author",
+                "tags": "Tags",
+                "comments": "Comment count",
+                "views": "Post view count"
+            },
+            "default_value": {
+                "date": "date",
+                "category": "category",
+                "author": "author",
+                "comments": "comments"
+            },
+            "layout": "vertical"
+        },
+        {
+            "key": "field_5549f5b3f4fc4",
+            "label": "Comments Display",
+            "name": "comments_display",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Choose wether to show WordPress comments or Facebook comments (or both) or to shut down comments on all posts & pages\r\n<br><br>\r\n<strong>Pro Tip:<\/strong> You'll need to insert your Facebook API Key in the API Key's field to enable Facebook Comments.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "wordpress-comments": "WordPress Comments",
+                "facebook-comments": "Facebook Comments",
+                "wordpress-and-facebook-comments": "WordPress & Facebook Comments",
+                "off": "No Comments"
+            },
+            "default_value": {
+                "wordpress-comments": "wordpress-comments"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_556da89f8e1a0",
+            "label": "Post voting",
+            "name": "post_voting",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "Users can vote on posts, either with an up- or downvote. This is used to order posts by \"Trending\"",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Enabled",
+            "default_value": 0
+        },
+        {
+            "key": "field_556da8f88e1a1",
+            "label": "Login required for voting?",
+            "name": "post_voting_logged_in",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "Require users to be logged in to vote on posts. If set to true a login modal box will be displayed if a user tries to vote on a post.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_556da89f8e1a0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Yes, users need to be logged in",
+            "default_value": 0
+        },
+        {
+            "key": "field_556ee8080f9e4",
+            "label": "Random vote count",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_556da89f8e1a0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "If you are migrating your site to this theme and have a lot of posts it looks bad to have no votes on those posts.\r\nYou can click the button below to automatically assign random upvotes on the posts available on your site.\r\n\r\nOnce clicked a dialog box will ask you what the maximum vote number should be.\r\n\r\n<a href=\"#\" onClick=\"blt_add_random_vote_count(event)\" class=\"button button-primary\">Add random votes to posts<\/a>",
+            "esc_html": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 4,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1433362488
+}

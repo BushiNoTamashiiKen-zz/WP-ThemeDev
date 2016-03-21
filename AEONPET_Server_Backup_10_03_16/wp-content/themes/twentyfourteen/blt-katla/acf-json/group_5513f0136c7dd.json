@@ -1,0 +1,63 @@
+{
+    "key": "group_5513f0136c7dd",
+    "title": "Verify Theme Purchase",
+    "fields": [
+        {
+            "key": "field_5513f0227426c",
+            "label": "Email Address",
+            "name": "email_address",
+            "prefix": "",
+            "type": "email",
+            "instructions": "Insert the email address you used to <a href=\"http:\/\/www.bluthemes.com\">register an account on bluthemes.com<\/a>",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5513f0517426d",
+            "label": "Purchase Code",
+            "name": "purchase_code",
+            "prefix": "",
+            "type": "text",
+            "instructions": "To be able to receive updates and support for this theme, please insert your purchase code you received when purchasing the theme. You can find it in the <a href=\"http:\/\/www.themeforest.com\/downloads\">downloads section in themeforest<\/a>",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-purchase-key"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1433362480
+}

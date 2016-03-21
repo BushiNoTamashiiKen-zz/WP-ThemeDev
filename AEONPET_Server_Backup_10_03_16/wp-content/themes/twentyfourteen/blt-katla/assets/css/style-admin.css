@@ -1,0 +1,181 @@
+/*===========================================
+  ACF
+===========================================*/
+
+	.acf-settings-wrap .acf-postbox{ 
+		display: block;
+		width: 60%;
+		/*float: left;*/
+		/*margin-right: 1%;*/
+		margin: 0 auto 10px;
+		vertical-align: top;
+	}
+	.acf-settings-wrap .acf-fields > .acf-field::before, .acf-fields > .acf-field::after {
+	    clear: both;
+	    content: "";
+	    display: table;
+	}
+
+	.acf-settings-wrap .acf-field .acf-label {
+	    float: left;
+	    margin: 0;
+	    vertical-align: top;
+	    width: 38%;
+	    padding-right: 2%;
+	}
+	.acf-settings-wrap .acf-field .acf-input {
+	    float: right;
+	    vertical-align: top;
+	    width: 60%;
+	}
+
+
+/*	.label-group{
+		display: inline-block;
+		background-color: #FAFAFA;
+		padding: 5px;
+		margin: 0 5px 5px 0;
+	}
+	.label-group input{
+		margin: 0 5px 0 0;
+	}*/
+
+	.acfgfs-font-data{ display: none;}
+
+	/*===========================================
+	  PURCHASE KEY PAGE
+	===========================================*/
+
+		.july-settings_page_acf-options-purchase-key .update-nag{ display: none; }
+		.july-settings_page_acf-options-purchase-key .acf-settings-wrap > h2{
+			text-align: center;
+		}
+		/*container*/
+		.july-settings_page_acf-options-purchase-key .acf-settings-wrap{
+			margin: 150px auto 0;
+			max-width: 500px;
+		}
+		.july-settings_page_acf-options-purchase-key #poststuff{
+			min-width: 0;
+		}
+		.july-settings_page_acf-options-purchase-key .acf-settings-wrap .acf-postbox{
+			width: 100%;
+		}
+		.july-settings_page_acf-options-purchase-key #poststuff #post-body.columns-2{
+			margin: 0;
+		}
+
+		/*post box*/
+		.july-settings_page_acf-options-purchase-key .acf-settings-wrap{
+			text-align: center;
+			/*width: 100%;*/
+		}
+		.july-settings_page_acf-options-purchase-key .acf-settings-wrap .acf-field .acf-label{
+			width: 100%;
+		}
+		.july-settings_page_acf-options-purchase-key .acf-settings-wrap .acf-field .acf-input{
+			float: none;
+			width: 100%;
+			/*max-width: 400px;*/
+			margin: 0 auto;
+			display: block;
+		}
+		.july-settings_page_acf-options-purchase-key .acf-input-wrap{
+			overflow: visible;
+		}
+		.july-settings_page_acf-options-purchase-key .acf-input-wrap input{
+			border: none;
+			box-shadow: none;
+			height: 50px;
+			text-align: center;
+			width: 100%;
+			/*max-width: 400px;*/
+			font-size: 25px;
+			margin: 10px 0;
+		}
+
+
+		/* submit box */
+		.july-settings_page_acf-options-purchase-key #post-body.columns-2 #postbox-container-1:before,
+		.july-settings_page_acf-options-purchase-key #post-body.columns-2 #postbox-container-1:after{
+			display: table;
+			clear: both;
+			content: '';
+		}
+		.july-settings_page_acf-options-purchase-key .postbox,
+		.july-settings_page_acf-options-purchase-key #major-publishing-actions{
+			background-color: transparent;
+			box-shadow: none;
+			border: none;
+			padding: 0;
+		}
+		.july-settings_page_acf-options-purchase-key #post-body.columns-2 #postbox-container-1{
+			float: none;
+			margin: 0 auto;
+			text-align: center;
+		}
+		/*header*/
+		.july-settings_page_acf-options-purchase-key #post-body.columns-2 #postbox-container-1 .hndle{
+			display: none;
+		}
+		/*button*/
+		.july-settings_page_acf-options-purchase-key #post-body.columns-2 #publishing-action{
+			float: none;
+			display: inline-block;
+		}
+		.july-settings_page_acf-options-purchase-key #post-body.columns-2 #publish{
+			border: medium none;
+		    border-radius: 1px;
+		    box-shadow: none;
+		    font-size: 23px;
+		    height: auto;
+		    padding: 15px 20px;
+		    width: auto;
+		}
+
+
+	/*===========================================
+	  PURCHASE CODE SPECIAL STYLING
+	===========================================*/
+
+		body #optionsframework .purchase-code{
+			text-align: center;
+			padding: 30px;
+			background-color: #FAFAFA;
+			border-bottom: 1px solid #EEEEEE;
+		}
+		body #optionsframework .purchase-code .heading{
+			width: 100%;
+			float: none;
+			font-size: 30px;
+			margin-top: 0;
+		}
+		body #optionsframework .purchase-code .option,
+		body #optionsframework .purchase-code .option .controls{
+			width: 100%;
+		}
+		body #optionsframework .purchase-code .option input#purchase_code{
+			height: 40px;
+			text-align: center;
+			width: 50%;
+			margin: 0 auto;
+			display: block;
+		}
+	/*===========================================
+	  ICON SELECTOR
+	===========================================*/
+
+		.icons-list{
+			list-style: none;
+		}
+		.icons-list li{
+			width: 20%;
+			float: left;
+			text-align: center;
+			font-size: 10px;
+		}
+		.icons-list li i{
+			font-size: 30px;
+			display: block;
+			margin-bottom: 10px;
+		}

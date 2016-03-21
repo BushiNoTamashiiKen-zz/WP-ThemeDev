@@ -1,0 +1,66 @@
+{
+    "key": "group_552d12888482c",
+    "title": "Post Format: Audio",
+    "fields": [
+        {
+            "key": "field_552d129740999",
+            "label": "Audio URL",
+            "name": "audio_url",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Link to the Audio URL",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "http:\/\/",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_552d12af4099a",
+            "label": "Audio Embed Code",
+            "name": "audio_embed_code",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "Audio Embedded Code",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "audio"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1433362464
+}
