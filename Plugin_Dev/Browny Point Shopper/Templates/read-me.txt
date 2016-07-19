@@ -1,0 +1,6 @@
+/*=== Browny Point Shopper read me ===*/
+
+| Copy template files in the root directory of your theme
+| 
+
+/*=== ===*/

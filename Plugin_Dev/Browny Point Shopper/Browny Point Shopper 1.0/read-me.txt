@@ -1,0 +1,9 @@
+/*=== Browny Point Shopper read me ===*/
+
+| Install and activate plugin
+| Create new store item
+| Add item price by creating a new custom field (store_item_price)
+| Insert this transaction shortcode [store_transact]
+| Save and enjoy!
+
+/*=== ===*/
