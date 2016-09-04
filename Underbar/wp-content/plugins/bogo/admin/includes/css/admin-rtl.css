@@ -1,0 +1,33 @@
+/* Bogo Tools */
+
+#bogo-languages-table tbody th {
+	width: 2em;
+	border-left: inherit;
+	border-right: 0;
+	padding-left:	inherit;
+	padding-right: 16px;
+}
+
+#bogo-languages-table tbody tr.active th {
+	border-left: inherit;
+	border-right: 4px solid #00a0d2;
+	padding-left: inherit;
+	padding-right: 12px;
+}
+
+#bogo-languages-table tbody a.install,
+#bogo-languages-table tbody a.activate {
+	margin-left: inherit;
+	margin-right: .4em;
+}
+
+/* Post */
+
+ul#bogo-translations li {
+	margin-right: 1.4em;
+}
+
+#bogo-add-translation-actions span.spinner,
+#bogo-add-translation-actions button {
+	float: right;
+}
