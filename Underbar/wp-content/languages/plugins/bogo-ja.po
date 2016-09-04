@@ -1,0 +1,673 @@
+# Translation of Stable (latest release) in Japanese
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-18 07:08:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: admin/includes/post.php:282 admin/includes/post.php:297
+msgid "Add Translation"
+msgstr "翻訳を追加"
+
+#: includes/functions.php:36
+msgid "German (Switzerland) (Informal)"
+msgstr "ドイツ語 (スイス) (口語体)"
+
+#: includes/rest-api.php:51 includes/rest-api.php:61 includes/rest-api.php:142
+msgid "The requested post was not found."
+msgstr "リクエストされた投稿が見つかりませんでした。"
+
+#: includes/rest-api.php:150
+msgid "The requested locale is not available."
+msgstr "利用できないロケールがリクエストされました。"
+
+#: includes/rest-api.php:157
+msgid "You are not allowed to edit posts in this post type."
+msgstr "この投稿タイプの投稿を編集する権限がありません。"
+
+#: includes/rest-api.php:163
+msgid "You are not allowed to create posts in the requested locale."
+msgstr "リクエストされたロケールで投稿を作成する権限がありません。"
+
+#: includes/rest-api.php:171
+msgid "Failed to duplicate a post."
+msgstr "投稿の複製に失敗しました。"
+
+#: includes/functions.php:19
+msgid "South Azerbaijani"
+msgstr "南アゼルバイジャン語"
+
+#: includes/functions.php:27
+msgid "Cebuano"
+msgstr "セブアノ語"
+
+#: includes/functions.php:47
+msgid "Spanish (Argentina)"
+msgstr "スペイン語 (アルゼンチン)"
+
+#: includes/functions.php:50
+msgid "Spanish (Guatemala)"
+msgstr "スペイン語 (グアテマラ)"
+
+#: includes/functions.php:61
+msgid "French (Canada)"
+msgstr "フランス語 (カナダ)"
+
+#: includes/functions.php:100
+msgid "Dutch (Formal)"
+msgstr "オランダ語 (文語体)"
+
+#. Author URI of the plugin/theme
+msgid "http://ideasilo.wordpress.com/"
+msgstr "http://ideasilo.wordpress.com/"
+
+#. Plugin URI of the plugin/theme
+msgid "http://ideasilo.wordpress.com/bogo/"
+msgstr "http://ideasilo.wordpress.com/bogo/"
+
+#. Description of the plugin/theme
+msgid "A straight-forward multilingual plugin. No more double-digit custom DB tables or hidden HTML comments that could cause you headaches later on."
+msgstr "独自テーブルをたくさん作ったり後で頭痛を起こすような HTML コメントの混入をしない、とても素直な多言語化プラグイン。"
+
+#. Author of the plugin/theme
+msgid "Takayuki Miyoshi"
+msgstr "Takayuki Miyoshi"
+
+#: includes/widgets.php:15
+msgid "Language switcher widget by Bogo plugin"
+msgstr "Bogo プラグインの言語切り替えウィジェット"
+
+#: includes/widgets.php:20 includes/widgets.php:28
+msgid "Language Switcher"
+msgstr "言語切り替え"
+
+#: includes/widgets.php:45
+msgid "Title:"
+msgstr "タイトル:"
+
+#: includes/functions.php:128
+msgid "Uighur"
+msgstr "ウイグル語"
+
+#: includes/functions.php:129
+msgid "Ukrainian"
+msgstr "ウクライナ語"
+
+#: includes/functions.php:130
+msgid "Urdu"
+msgstr "ウルドゥー語"
+
+#: includes/functions.php:131
+msgid "Uzbek"
+msgstr "ウズベク語"
+
+#: includes/functions.php:132
+msgid "Vietnamese"
+msgstr "ベトナム語"
+
+#: includes/functions.php:133
+msgid "Chinese (China)"
+msgstr "中国語 (中国)"
+
+#: includes/functions.php:134
+msgid "Chinese (Taiwan)"
+msgstr "中国語 (台湾)"
+
+#: includes/functions.php:127
+msgid "Tatar"
+msgstr "タタール語"
+
+#: includes/functions.php:125
+msgid "Tagalog"
+msgstr "タガログ語"
+
+#: includes/functions.php:126
+msgid "Turkish"
+msgstr "トルコ語"
+
+#: includes/functions.php:118
+msgid "Swedish"
+msgstr "スウェーデン語"
+
+#: includes/functions.php:119
+msgid "Sundanese"
+msgstr "スンダ語"
+
+#: includes/functions.php:120
+msgid "Swahili"
+msgstr "スワヒリ語"
+
+#: includes/functions.php:121
+msgid "Tamil"
+msgstr "タミル語"
+
+#: includes/functions.php:122
+msgid "Telugu"
+msgstr "テルグ語"
+
+#: includes/functions.php:123
+msgid "Tajik"
+msgstr "タジク語"
+
+#: includes/functions.php:124
+msgid "Thai"
+msgstr "タイ語"
+
+#: includes/functions.php:113
+msgid "Slovak"
+msgstr "スロバキア語"
+
+#: includes/functions.php:114
+msgid "Slovenian"
+msgstr "スロベニア語"
+
+#: includes/functions.php:115
+msgid "Somali"
+msgstr "ソマリ語"
+
+#: includes/functions.php:116
+msgid "Albanian"
+msgstr "アルバニア語"
+
+#: includes/functions.php:117
+msgid "Serbian"
+msgstr "セルビア語"
+
+#: includes/functions.php:107
+msgid "Portuguese (Brazil)"
+msgstr "ポルトガル語 (ブラジル)"
+
+#: includes/functions.php:108
+msgid "Portuguese (Portugal)"
+msgstr "ポルトガル語 (ポルトガル)"
+
+#: includes/functions.php:109
+msgid "Romanian"
+msgstr "ルーマニア語"
+
+#: includes/functions.php:110
+msgid "Russian"
+msgstr "ロシア語"
+
+#: includes/functions.php:111
+msgid "Sanskrit"
+msgstr "サンスクリット語"
+
+#: includes/functions.php:112
+msgid "Sinhala"
+msgstr "シンハラ語"
+
+#: includes/functions.php:98
+msgid "Nias"
+msgstr "ニアス語"
+
+#: includes/functions.php:99
+msgid "Dutch"
+msgstr "オランダ語"
+
+#: includes/functions.php:101
+msgid "Norwegian (Nynorsk)"
+msgstr "ノルウェー語 (ニーノシュク)"
+
+#: includes/functions.php:102
+msgid "Occitan"
+msgstr "オック語"
+
+#: includes/functions.php:103
+msgid "Ossetic"
+msgstr "オセット語"
+
+#: includes/functions.php:104
+msgid "Punjabi"
+msgstr "パンジャブ語"
+
+#: includes/functions.php:105
+msgid "Polish"
+msgstr "ポーランド語"
+
+#: includes/functions.php:106
+msgid "Pashto"
+msgstr "パシュトー語"
+
+#: includes/functions.php:92
+msgid "Marathi"
+msgstr "マラーティー語"
+
+#: includes/functions.php:93
+msgid "Malay"
+msgstr "マレー語"
+
+#: includes/functions.php:94
+msgid "Maltese"
+msgstr "マルタ語"
+
+#: includes/functions.php:95
+msgid "Burmese"
+msgstr "ビルマ語"
+
+#: includes/functions.php:96
+msgid "Norwegian (Bokmål)"
+msgstr "ノルウェー語 (ブークモール)"
+
+#: includes/functions.php:97
+msgid "Nepali"
+msgstr "ネパール語"
+
+#: includes/functions.php:87
+msgid "Latvian"
+msgstr "ラトビア語"
+
+#: includes/functions.php:88
+msgid "Malagasy"
+msgstr "マダガスカル語"
+
+#: includes/functions.php:89
+msgid "Macedonian"
+msgstr "マケドニア語"
+
+#: includes/functions.php:90
+msgid "Malayalam"
+msgstr "マラヤーラム語"
+
+#: includes/functions.php:91
+msgid "Mongolian"
+msgstr "モンゴル語"
+
+#: includes/functions.php:84
+msgid "Limburgish"
+msgstr "リンブルフ語"
+
+#: includes/functions.php:85
+msgid "Lao"
+msgstr "ラオ語"
+
+#: includes/functions.php:86
+msgid "Lithuanian"
+msgstr "リトアニア語"
+
+#: includes/functions.php:80
+msgid "Kazakh"
+msgstr "カザフ語"
+
+#: includes/functions.php:81
+msgid "Khmer"
+msgstr "クメール語"
+
+#: includes/functions.php:82
+msgid "Kannada"
+msgstr "カンナダ語"
+
+#: includes/functions.php:83
+msgid "Korean"
+msgstr "韓国語"
+
+#: includes/functions.php:75
+msgid "Icelandic"
+msgstr "アイスランド語"
+
+#: includes/functions.php:76
+msgid "Italian"
+msgstr "イタリア語"
+
+#: includes/functions.php:77
+msgid "Japanese"
+msgstr "日本語"
+
+#: includes/functions.php:78
+msgid "Javanese"
+msgstr "ジャワ語"
+
+#: includes/functions.php:79
+msgid "Georgian"
+msgstr "グルジア語"
+
+#: includes/functions.php:72
+msgid "Hungarian"
+msgstr "ハンガリー語"
+
+#: includes/functions.php:73
+msgid "Armenian"
+msgstr "アルメニア語"
+
+#: includes/functions.php:74
+msgid "Indonesian"
+msgstr "インドネシア語"
+
+#: includes/functions.php:67
+msgid "Hazaragi"
+msgstr "ハザラギ語"
+
+#: includes/functions.php:68
+msgid "Hebrew"
+msgstr "ヘブライ語"
+
+#: includes/functions.php:69
+msgid "Hindi"
+msgstr "ヒンディー語"
+
+#: includes/functions.php:70
+msgid "Croatian"
+msgstr "クロアチア語"
+
+#: includes/functions.php:71
+msgid "Haitian"
+msgstr "ハイチ語"
+
+#: includes/functions.php:63
+msgid "Irish"
+msgstr "アイルランド語"
+
+#: includes/functions.php:64
+msgid "Scottish Gaelic"
+msgstr "ゲール語 (スコットランド)"
+
+#: includes/functions.php:65
+msgid "Galician"
+msgstr "ガリシア語"
+
+#: includes/functions.php:66
+msgid "Gujarati"
+msgstr "グジャラート語"
+
+#: includes/functions.php:56
+msgid "Persian"
+msgstr "ペルシア語"
+
+#: includes/functions.php:57
+msgid "Finnish"
+msgstr "フィンランド語"
+
+#: includes/functions.php:58
+msgid "Faroese"
+msgstr "フェロー語"
+
+#: includes/functions.php:59
+msgid "French (France)"
+msgstr "フランス語 (フランス)"
+
+#: includes/functions.php:60
+msgid "French (Belgium)"
+msgstr "フランス語 (ベルギー)"
+
+#: includes/functions.php:62
+msgid "Frisian"
+msgstr "フリジア語"
+
+#: includes/functions.php:46
+msgid "Spanish (Spain)"
+msgstr "スペイン語 (スペイン)"
+
+#: includes/functions.php:48
+msgid "Spanish (Chile)"
+msgstr "スペイン語 (チリ)"
+
+#: includes/functions.php:49
+msgid "Spanish (Colombia)"
+msgstr "スペイン語 (コロンビア)"
+
+#: includes/functions.php:51
+msgid "Spanish (Mexico)"
+msgstr "スペイン語 (メキシコ)"
+
+#: includes/functions.php:52
+msgid "Spanish (Peru)"
+msgstr "スペイン語 (ペルー)"
+
+#: includes/functions.php:53
+msgid "Spanish (Venezuela)"
+msgstr "スペイン語 (ベネズエラ)"
+
+#: includes/functions.php:54
+msgid "Estonian"
+msgstr "エストニア語"
+
+#: includes/functions.php:55
+msgid "Basque"
+msgstr "バスク語"
+
+#: includes/functions.php:39
+msgid "English (United States)"
+msgstr "英語 (アメリカ)"
+
+#: includes/functions.php:40
+msgid "English (Australia)"
+msgstr "英語 (オーストラリア)"
+
+#: includes/functions.php:41
+msgid "English (Canada)"
+msgstr "英語 (カナダ)"
+
+#: includes/functions.php:42
+msgid "English (UK)"
+msgstr "英語 (英国)"
+
+#: includes/functions.php:43
+msgid "English (New Zealand)"
+msgstr "英語 (ニュージーランド)"
+
+#: includes/functions.php:44
+msgid "English (South Africa)"
+msgstr "英語 (南アフリカ)"
+
+#: includes/functions.php:45
+msgid "Esperanto"
+msgstr "エスペラント語"
+
+#: includes/functions.php:33
+msgid "German"
+msgstr "ドイツ語"
+
+#: includes/functions.php:34
+msgid "German (Formal)"
+msgstr "ドイツ語 (文語体)"
+
+#: includes/functions.php:35
+msgid "German (Switzerland)"
+msgstr "ドイツ語 (スイス)"
+
+#: includes/functions.php:37
+msgid "Dhivehi"
+msgstr "ディベヒ語"
+
+#: includes/functions.php:38
+msgid "Greek"
+msgstr "ギリシャ語"
+
+#: includes/functions.php:29
+msgid "Corsican"
+msgstr "コルシカ語"
+
+#: includes/functions.php:30
+msgid "Czech"
+msgstr "チェコ語"
+
+#: includes/functions.php:31
+msgid "Welsh"
+msgstr "ウェールズ語"
+
+#: includes/functions.php:32
+msgid "Danish"
+msgstr "デンマーク語"
+
+#: includes/functions.php:22
+msgid "Bangla"
+msgstr "ベンガル語"
+
+#: includes/functions.php:23
+msgid "Indian Bengali"
+msgstr "ベンガル語 (インド)"
+
+#: includes/functions.php:24
+msgid "Tibetan"
+msgstr "チベット語"
+
+#: includes/functions.php:25
+msgid "Bosnian"
+msgstr "ボスニア語"
+
+#: includes/functions.php:26
+msgid "Catalan"
+msgstr "カタルーニャ語"
+
+#: includes/functions.php:28
+msgid "Central Kurdish"
+msgstr "中央クルド語"
+
+#: includes/functions.php:14
+msgid "Aragonese"
+msgstr "アラゴン語"
+
+#: includes/functions.php:15
+msgid "Arabic"
+msgstr "アラビア語"
+
+#: includes/functions.php:16
+msgid "Moroccan Arabic"
+msgstr "モロッコ・アラビア語"
+
+#: includes/functions.php:17
+msgid "Assamese"
+msgstr "アッサム語"
+
+#: includes/functions.php:18
+msgid "Azerbaijani"
+msgstr "アゼルバイジャン語"
+
+#: includes/functions.php:20
+msgid "Belarusian"
+msgstr "ベラルーシ語"
+
+#: includes/functions.php:21
+msgid "Bulgarian"
+msgstr "ブルガリア語"
+
+#: admin/includes/user.php:71
+msgid "This user is allowed to access the following locales:"
+msgstr "このユーザーは次のロケールにアクセスできます:"
+
+#: includes/functions.php:12
+msgid "Afrikaans"
+msgstr "アフリカーンス語"
+
+#: includes/functions.php:13
+msgid "Amharic"
+msgstr "アムハラ語"
+
+#: admin/includes/post.php:122
+msgid "Translate into %s"
+msgstr "%sに翻訳"
+
+#: admin/includes/post.php:249
+msgid "Translations"
+msgstr "翻訳"
+
+#: admin/admin.php:318
+msgid "Translation installed successfully."
+msgstr "翻訳のインストールに成功しました。"
+
+#: admin/admin.php:320
+msgid "Translation install failed."
+msgstr "翻訳のインストールに失敗しました。"
+
+#: admin/admin.php:322
+msgid "Translation uninstalled successfully."
+msgstr "翻訳のアンインストールに成功しました。"
+
+#: admin/admin.php:324
+msgid "Translation uninstall failed."
+msgstr "翻訳のアンインストールに失敗しました。"
+
+#: admin/admin.php:326
+msgid "English (United States) deactivated."
+msgstr "英語 (米国) を停止しました。"
+
+#: admin/admin.php:328
+msgid "English (United States) activated."
+msgstr "英語 (米国) を有効化しました。"
+
+#: admin/includes/post.php:21 admin/includes/user.php:68
+#: admin/includes/user.php:104
+msgid "Locale"
+msgstr "ロケール"
+
+#: admin/includes/post.php:80
+msgid "Show all locales"
+msgstr "ロケール指定なし"
+
+#: admin/includes/post.php:119
+msgid "Edit %s translation"
+msgstr "%s翻訳を編集"
+
+#: admin/admin.php:293
+msgid "Install"
+msgstr "インストール"
+
+#: admin/admin.php:254
+msgid ""
+"You are about to delete %s language pack.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr "%sの言語パックを削除しようとしています。"
+
+#: admin/admin.php:258
+msgid "Delete"
+msgstr "削除"
+
+#: admin/admin.php:237
+msgid "Deactivate"
+msgstr "停止"
+
+#: admin/admin.php:222
+msgid "Activate"
+msgstr "有効化"
+
+#: admin/admin.php:209
+msgid "Installed"
+msgstr "インストール済み"
+
+#: admin/admin.php:190
+msgid "Site Default Language"
+msgstr "サイトのデフォルト言語"
+
+#: admin/admin.php:206
+msgid "Inactive"
+msgstr "停止中"
+
+#: admin/admin.php:207
+msgid "Active"
+msgstr "有効"
+
+#: admin/admin.php:57 admin/includes/widgets.php:22
+msgid "Displayed on pages in"
+msgstr "次の言語のページで表示"
+
+#: admin/admin.php:79 admin/admin.php:173
+msgid "Bogo Tools"
+msgstr "Bogo ツール"
+
+#. #-#-#-#-#  tmp-bogo.pot (Bogo 2.8.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/admin.php:79
+msgid "Bogo"
+msgstr "Bogo"
+
+#: admin/admin.php:94
+msgid "You are not allowed to install translations."
+msgstr "翻訳をインストールする権限がありません。"
+
+#: admin/admin.php:117
+msgid "You are not allowed to delete translations."
+msgstr "翻訳を削除する権限がありません。"
+
+#: admin/admin.php:177
+msgid "Available Languages"
+msgstr "利用可能な言語"
+
+#: admin/admin.php:181 admin/admin.php:184 admin/includes/post.php:194
+#: admin/includes/post.php:237
+msgid "Language"
+msgstr "言語"
