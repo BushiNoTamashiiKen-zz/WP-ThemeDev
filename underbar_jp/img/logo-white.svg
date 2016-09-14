@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="84.573px" height="108.679px" viewBox="0 0 84.573 108.679" enable-background="new 0 0 84.573 108.679"
+	 xml:space="preserve">
+<g id="Layer_2" display="none">
+	<rect x="-0.5" y="-0.486" display="inline" fill="#494949" width="85" height="109"/>
+</g>
+<g id="Layer_1">
+	<ellipse fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="42.286" cy="43.024" rx="39.287" ry="40.024"/>
+	<g>
+		<path fill="#FFFFFF" d="M32.648,58.42c0,2.608-2.118,4.562-4.67,4.616v0.057h-2.987c-2.66,0-4.832-2.012-4.832-4.672V33.212
+			c0.054-0.598,0.542-1.086,1.14-1.086h2.77v25.59c0,1.14,0.869,2.062,2.009,2.062h0.598c1.141,0,2.062-0.923,2.062-2.062v-25.59
+			h3.91V58.42z"/>
+		<path fill="#FFFFFF" d="M64.903,46.964v11.132c-0.055,2.661-2.172,4.778-4.833,4.778h-7.059v-38.01h7.059
+			c2.661,0,4.778,2.118,4.833,4.779v11.131c0,0,0.054,2.389-2.228,3.095C64.957,44.575,64.903,46.964,64.903,46.964z M60.993,30.729
+			c0-1.412-0.979-1.955-2.009-1.955h-2.117v13.303h2.117c1.03,0,2.009-0.488,2.009-2.227V30.729z M60.993,47.833
+			c0-1.683-0.979-2.172-2.009-2.172h-2.117v13.358h2.117c1.03,0,2.009-0.544,2.009-2.01V47.833z"/>
+	</g>
+	<circle fill="#FFFFFF" cx="43.198" cy="43.483" r="1.815"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="20.158" y1="26.447" x2="33.005" y2="26.447"/>
+	<text transform="matrix(1 0 0 1 18.9937 104.9839)" fill="#FFFFFF" font-family="'Dense-Regular'" font-size="20.5313">Underbar</text>
+</g>
+</svg>
